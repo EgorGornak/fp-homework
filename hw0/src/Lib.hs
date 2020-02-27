@@ -154,7 +154,6 @@ churchToInt a = a (1 +) 0
 
 -- weak head normal form  = (Left ("harold" ++ " hide " ++ "the " ++ "pain"), Left ("harold" ++ " hide " ++ "the " ++ "pain"))
 -- weak head normal form = False
-
 -- | returns False
 task7_1 :: Bool
 task7_1 = null . head $ map (uncurry id) [((++) "Dorian ", " Grey")]
